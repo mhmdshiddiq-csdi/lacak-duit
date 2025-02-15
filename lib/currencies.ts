@@ -11,6 +11,11 @@ export const Currencies = [
     {
         value: "INR", label: "₹ Rupee", locale: "en-IN"
     },
+    {
+        value: "IDR",
+        label: "Rp Rupiah",
+        locale: "id-ID"
+      }
 ]
 
 export type Currency = (typeof Currencies)[0];

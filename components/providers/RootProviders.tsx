@@ -12,7 +12,7 @@ const RootProviders = ({children}: {children: React.ReactNode}) => {
       <ThemeProvider attribute="class" defaultTheme='dark' enableSystem disableTransitionOnChange>
         {children}
       </ThemeProvider>
-      <ReactQueryDevtools />
+      <ReactQueryDevtools initialIsOpen={false}/>
     </QueryClientProvider>
   )
 }
