@@ -1,6 +1,5 @@
 import prisma from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
-import { request } from "http";
 import { redirect } from "next/navigation";
 import { z } from "zod";
 

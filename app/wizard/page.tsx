@@ -37,7 +37,7 @@ async function page() {
 			<Separator />
 			<Button className='w-full' asChild>
 				<Link href={"/"}>
-					I'm Done Take me to Dashboard
+					I{"'"}m Done Take me to Dashboard
 				</Link>
 			</Button>
 			<div className='mt-8'>

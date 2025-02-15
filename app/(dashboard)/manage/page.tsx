@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import React from 'react'
 
 const page = () => {
+	console.log("tes");
   return (
     <>
 		{/* Header */}

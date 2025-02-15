@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 import { DateToUtcDate, GetFormatterForCurrency } from '@/lib/helpers';
 import { UserSettings } from '@prisma/client';
 import { useQuery } from '@tanstack/react-query';
-import { TrendingDown, TrendingUp, TrendingUpDown, Wallet } from 'lucide-react';
+import { TrendingDown, TrendingUp, Wallet } from 'lucide-react';
 import React, { useCallback, useMemo } from 'react'
 import CountUp from 'react-countup'
 
