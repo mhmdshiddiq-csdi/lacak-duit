@@ -3,7 +3,7 @@ import React from 'react'
 
 const layout = ({children}: {children: React.ReactNode}) => {
   return (
-    <div className='relative flex h-screen w-full flex-col items-center justify-center'>
+    <div className='relative flex h-full w-full flex-col items-center justify-center'>
       <Logo />
       <div className='mt-4'>{children}</div>
     </div>
